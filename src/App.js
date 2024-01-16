@@ -6,7 +6,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 const App = () => {
   return (
-    <Parallax speed={-10}>
+    <Parallax speed={-10} translateX={['-100px', '200px']}>
       <header class="header">
         <a href="index.html" class="logo">
             My Logo
